@@ -21,7 +21,7 @@
 		],
 		"typeProperties": {
 			"schema": "dbo",
-			"table": "control_tbl"
+			"table": "orders_final"
 		}
 	}
 }
