@@ -81,7 +81,7 @@
 					"source": {
 						"type": "AzureSqlSource",
 						"sqlReaderQuery": {
-							"value": "select id, name, order_dt from orders where order_dt > @{activity('Lookup1').output.firstRow.watermark} and order_dt <= @{activity('Lookup2').output.firstRow.max_value}",
+							"value": "select id, name, order_dt from orders where order_dt > '@{activity('Lookup1').output.firstRow.watermark}' and order_dt <= '@{activity('Lookup2').output.firstRow.max_value}'",
 							"type": "Expression"
 						},
 						"queryTimeout": "02:00:00",
