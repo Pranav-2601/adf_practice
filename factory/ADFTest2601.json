@@ -1,0 +1,15 @@
+{
+	"name": "ADFTest2601",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "38b21d01-9bc7-4518-988d-d2bcdf0982d9",
+		"tenantId": "adec0222-0e00-4fa5-9d0f-bca156f2ce31"
+	}
+}
