@@ -1,5 +1,5 @@
 {
-	"name": "incremental_load_pipeline",
+	"name": "incremental_load_ctrl_tbl_pipeline",
 	"properties": {
 		"activities": [
 			{
