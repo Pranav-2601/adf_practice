@@ -55,16 +55,8 @@
 				"     umask: 0022,",
 				"     preCommands: [],",
 				"     postCommands: [],",
-				"     skipDuplicateMapInputs: true,",
-				"     skipDuplicateMapOutputs: true,",
 				"     mapColumn(",
-				"          CustomerID,",
-				"          FirstName,",
-				"          LastName,",
-				"          Email,",
-				"          Address,",
-				"          City,",
-				"          Country",
+				"          each(match(name != 'FirstName' && name != 'LastName'))",
 				"     )) ~> sink1"
 			]
 		}
