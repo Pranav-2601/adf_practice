@@ -1,5 +1,5 @@
 {
-	"name": "metadat_driven_pipeline",
+	"name": "metadata_driven_pipeline",
 	"properties": {
 		"activities": [
 			{
@@ -22,7 +22,10 @@
 					},
 					"dataset": {
 						"referenceName": "AzureSqlTable4",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"SchemaName": "dbo"
+						}
 					},
 					"firstRowOnly": false
 				}
