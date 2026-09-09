@@ -10,9 +10,9 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "api.csv",
+				"fileName": "output.csv",
 				"folderPath": "Output",
-				"fileSystem": "test"
+				"fileSystem": "test1"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
